@@ -1,0 +1,18 @@
+//strokes: %info, %arg
+//%arg parametrs: name, type, var
+//types: var, string, path, choice
+//vars: adb(adb path), device(device serial), log(log path), result(result path)
+//choice: some strings with ";"
+
+
+%info :: KoronaPay script, version 1.0
+%arg :: type == var | var == adb
+%arg :: type == var | var == device
+%arg :: type == var | var == log
+%arg :: type == var | var == result
+%arg :: name == Transfer_amount | type == string
+%arg :: name == Wi-fi_name | type == string
+%arg :: name == Wi-fi_password | type == string
+%arg :: name == SMS_service | type == choice | choice == SimSMS; SmsHUB; without sms
+%arg :: name == API | type == string
+%arg :: name == Reboot | type == choice | choice == false; true
