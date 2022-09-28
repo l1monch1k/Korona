@@ -4,14 +4,9 @@
 //vars: adb(adb path), device(device serial), log(log path), result(result path)
 //choice: some strings with ";"
 
-
-<<<<<<< HEAD
-%info :: KoronaPay script, version 1.2
-=======
 %info :: KoronaPay script
 %version :: 1.2
 %update:: https://github.com/l1monch1k/Korona/
->>>>>>> 26681cfdb67567e75f7979fda8d07aa56ec93ec6
 %arg :: type == var | var == adb
 %arg :: type == var | var == device
 %arg :: type == var | var == log
