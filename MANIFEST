@@ -5,7 +5,7 @@
 //choice: some strings with ";"
 
 %info :: KoronaPay script
-%version :: 1.4
+%version :: 1.5
 %update:: https://github.com/l1monch1k/Korona/
 %arg :: type == var | var == adb
 %arg :: type == var | var == device
