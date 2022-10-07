@@ -5,7 +5,7 @@
 //choice: some strings with ";"
 
 %info :: KoronaPay script
-%version :: 1.2
+%version :: 1.3
 %update:: https://github.com/l1monch1k/Korona/
 %arg :: type == var | var == adb
 %arg :: type == var | var == device
@@ -17,3 +17,5 @@
 %arg :: name == SMS_service | type == choice | choice == SimSMS; SmsHUB; without sms
 %arg :: name == API | type == string
 %arg :: name == Reboot | type == choice | choice == false; true
+%arg :: name == PeopleBase | type == string
+%arg :: name == MoneyType | type == choice | choice == USD; EUR; LIR
